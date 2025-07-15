@@ -4,24 +4,31 @@
   <title>KCE Event Schedule</title>
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       background-color: #f0f4ff;
       padding: 40px;
       color: #333;
     }
-    h1 { color: #5a00cc; }
+    h1 {
+      color: #5a00cc;
+      text-align: center;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 20px;
+      margin-top: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     th, td {
       border: 1px solid #aaa;
-      padding: 10px;
-      text-align: left;
+      padding: 12px;
+      text-align: center;
     }
     th {
       background-color: #dedcff;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9ff;
     }
   </style>
 </head>
@@ -48,6 +55,12 @@
       <td>Hackathon</td>
       <td>Lab 1</td>
     </tr>
+    <tr>
+      <td>4:00 PM</td>
+      <td>Valedictory</td>
+      <td>Main Hall</td>
+    </tr>
   </table>
 </body>
 </html>
+
