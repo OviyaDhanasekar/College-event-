@@ -1,3 +1,4 @@
+<!-- event-schedule.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f4ff;
+      background: linear-gradient(135deg, #f3e5f5, #e1f5fe);
       padding: 40px;
       color: #333;
     }
@@ -16,8 +17,9 @@
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 30px;
+      margin: 30px auto;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: white;
     }
     th, td {
       border: 1px solid #aaa;
@@ -29,6 +31,22 @@
     }
     tr:nth-child(even) {
       background-color: #f9f9ff;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background: #ff4081;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #e91e63;
     }
   </style>
 </head>
@@ -61,6 +79,11 @@
       <td>Main Hall</td>
     </tr>
   </table>
+
+  <div class="button-container">
+    <a href="gallery.html" class="btn">🎉 View Event Gallery</a>
+  </div>
 </body>
 </html>
+
 
